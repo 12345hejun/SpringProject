@@ -18,4 +18,13 @@ public class HeeController {
 
 		return "Hee/test";
 	}//Hee/test
+	
+	@RequestMapping(value = "/Hee/HJmain.action", method = { RequestMethod.GET })
+	public String main(HttpServletRequest request, HttpServletResponse response) {
+
+		
+
+		return "Hee/HJmain";
+	}
+	
 }//HeeController
